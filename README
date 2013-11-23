@@ -1,0 +1,18 @@
+Way to run:
+	- g++ server.cpp -lmcrypt
+	- ./a.out portNum
+
+	// client side
+	- g++ clientPlayer.cpp -lmcrypt
+	- ./a.out IPOfServer portNum
+
+Things To Do:
+	- get server client model working for video transfer 		: Done
+	- encryption and decryption implementation 			: Done
+	- extraction of MAC 						: Done 
+	- decryption to pipe and play video from pipe 			: Done
+	- digital signature 						: To Do
+	- RSA use for key exchange : IMPORTANT 				: To Do
+	- fetch of list of available videos (shared with that user) 	: To Do
+		- give name of video to view
+	- remove intermediate files required : Low Imp			: To Do
